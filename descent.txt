@@ -1,0 +1,6 @@
+Batch gradient descent
+Stochastic gradient descent:
+    In every iteration all thetas are updated with use of
+a single training data sample. Then these updated thetas are
+again updated with help of another training data. Not as accurate
+as batch gradient descent but often much faster in practise

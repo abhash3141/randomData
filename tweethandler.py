@@ -1,7 +1,6 @@
 import json
 from tweepy import OAuthHandler, Stream, API
 from tweepy.streaming import StreamListener
-#from tweepy.streaming import Stream
 
 consumer_key = ""
 consumer_secret=""
@@ -40,6 +39,5 @@ def pull_down_tweets(screen_name):
         print(json.dumps(tweet._json,indent=4))
 
 if __name__=='__main__':
-    #print_to_terminal()
     pull_down_tweets(auth.username)
 
